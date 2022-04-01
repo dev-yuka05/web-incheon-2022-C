@@ -82,7 +82,10 @@ var y = 4;
 
 const cardSetting = (x, y) => {
     for(let i = 0; i < x * y; i++){
-        const card = document.querySelector('.card-game').innerHTML 
+        const card = document.createElement('div');
+        card.className = 'card'
+
+        document.querySelector('.card-game .game').appendChild(card);
     }
 };
 
