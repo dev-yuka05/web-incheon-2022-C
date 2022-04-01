@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+.special{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 120px 20%;
+}
+
+.special .text{
+    margin: auto 0;
+}
+.tlqkf{
+    font-size:48px;
+    background: linear-gradient(to right top, #5e23ff, #5689f8);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.copy{
+    color: #666;
+    margin: 0;
+    font-size: 13px;
+}
+
+.씨발{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

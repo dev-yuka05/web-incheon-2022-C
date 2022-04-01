@@ -18,3 +18,6 @@ window.addEventListener('keydown',(element)=>{
     }
 });
 
+document.querySelector('.').addEventListener('click',(e) => {
+    console.log(e);
+});
